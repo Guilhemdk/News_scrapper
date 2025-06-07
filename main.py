@@ -1,2 +1,5 @@
-main()
-    return
+from news_crawler import main
+
+if __name__ == '__main__':
+    import sys
+    main(sys.argv[1:])
